@@ -29,38 +29,71 @@ body {
     top: 100px;
 }
 
-
-
-.twitter:hover + .twitter-color {
-    display: block;
-    z-index: 1;
-    background-color: yellow; 
-}
-
-.twitter:hover {
-    display: none;
-    z-index: -1;
-    background-color: yellow; 
+.fab {
+    margin-top: 10px;
+    font-size: 1.33em;
 }
 
 
 
 
+/* SOCIAL MEDIA  */ 
 
-.linkedin:hover {
-    /* display: block; */
-    background-color: yellow;
+.fa-twitter:hover {
+    color: #55ADEE; 
 }
 
-.insta:hover {
-    /* display: block; */
-    background-color: yellow;
+.fa-linkedin:hover {
+    color: #0077B5;
 }
 
-.git:hover {
-    /* display: block; */
-    background-color: yellow;
+.fa-instagram:hover {
+    color: #9C27B0;
 }
+
+.fa-github:hover {
+    color: black;
+}
+
+
+.fa-twitter {
+    color: #BEC2CA; 
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.fa-linkedin {
+    color: #BEC2CA;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.fa-instagram {
+    color: #BEC2CA;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.fa-github {
+    color: #BEC2CA;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+
 
 #fixins {
     position: fixed;
@@ -76,7 +109,7 @@ body {
     z-index: 1;
     position: relative;
     top: 45px;
-    left: 50px;
+    left: 55px;
     width: 30px;
 
 }
@@ -241,8 +274,8 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  width: 281px;
-  height: 281px;
+  width: calc(100% - 30px);
+  height: 100%;
 }
 
 .container:hover .image {
@@ -258,7 +291,7 @@ body {
   color: white;
   font-size: 16px;
   position: relative;
-  top: 130px;
+  top: 50%;
   font-family: 'Roboto', sans-serif;
 }
 
