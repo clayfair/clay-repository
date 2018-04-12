@@ -8,6 +8,36 @@ p {
     margin: 0;
 }
 
+.zazaza {
+    width: 50px;
+    height: 50px;
+    background-color: #BEC2CA;
+    text-align: center;   
+    border-radius: 12px;
+    font-size: 3em;
+    color: white; 
+    position: fixed;
+    left: 93.5%;
+    bottom: 30px;
+}
+
+.zazaza:hover {
+    background-color: black;
+    -moz-transition: all 0.1s ease-in-out 0s;
+    -ms-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+
+#imgSize {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 35px;
+}
+
+
 .portfolio {
     transform: translateX(-50%);
 }
@@ -97,6 +127,7 @@ body {
 
 #fixins {
     position: fixed;
+    left: 0%;
 }
 
 .big-container {
@@ -136,8 +167,21 @@ body {
     
 }
 
-.index:hover {
+.index {
+    float: left;
+    margin-right: 40px;
     color: #A5A5A5;
+
+}
+
+.index:hover {
+    color: black;
+    height: 30px;
+    -moz-transition: all 0.1s ease-in-out 0s;
+    -ms-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
 }
 
 #explore {
@@ -166,13 +210,6 @@ body {
     border: 1px solid red;
 }
 
-
-.index {
-    float: left;
-    margin-right: 40px;
-
-}
-
 #wrap {
     float: right;
     margin-right: 35px;
@@ -194,7 +231,7 @@ body {
     line-height: 55px;
 }
 
-#container-title {
+.container-title {
     text-align: center;
     width: 47%;
     position: absolute;
