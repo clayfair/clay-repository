@@ -21,6 +21,18 @@ p {
     bottom: 30px;
 }
 
+.nuggy {
+    height: 35%;
+    width: 35%;
+    position: relative;
+    left: 25%;
+}
+
+.hoop {
+    margin: auto;
+    width: 980px;
+}
+
 .zazaza:hover {
     background-color: black;
     -moz-transition: all 0.1s ease-in-out 0s;
@@ -161,10 +173,17 @@ body {
 #details {
     margin-top: 20px;
     font-size: 16px;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', serif; 
     font-weight: 100;
     line-height: 30px;
-    
+    /* font-family: 'Gamja Flower', cursive; */
+
+
+    /* background-color: black;
+    height: 30px;
+    color: white;
+    width: 100%;
+    margin: auto; */
 }
 
 .index {

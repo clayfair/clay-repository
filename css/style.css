@@ -8,6 +8,14 @@
 
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
+.text {
+  position: relative;
+  top: 50%;
+}
+
+.about-text {
+  color: black;
+}
 
 #squire {
   background-image: url('http://placekitten.com/g/400/400/');
