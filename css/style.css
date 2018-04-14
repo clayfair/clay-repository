@@ -8,6 +8,12 @@
 
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
+
+#heart {
+  position: relative;
+  bottom: 100px;
+}
+
 .text {
   position: relative;
   top: 50%;
@@ -632,4 +638,104 @@ nav ul li a {
 
 .credits {
   font-size: 13px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+  #container-title {
+      top:32%;
+  }
+  .index {
+      margin-right: 25px;
+  }
+  #title {
+      font-size: 16px;
+      line-height: 30px;
+  }
+  #container-one {
+      height: 70vh;
+  }
+
+  .portfolio-container {
+      top: 0;
+  }
+
+  #bitOnClick {
+    height: 40;
+    width: 40;
+  }
+
+  .up-scroll {
+    left: 88%;
+    z-index: 2;
+    bottom: 10%;
+    height: 45px;
+    width: 45px;
+  }
+
+
+
+  #fixins {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0%;
+    z-index: 1;
+  }
+
+  #social-row {
+    display: none;
+  }
+
+  
+
+  #bitmoji {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .index {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 803px) {
+
+  #title {
+      font-size: 35px;
+  }
+
+  #bitmoji {
+    width: 50px;
+    height: 50px;
+  }
+
+  #fixins {
+    position: fixed;
+    left: -10px;
+  }
+
+  .zazaza {
+    position: fixed;
+    left: 90%;
+  }
+
+  #social-row {
+    left: 50px;
+  
+  }
+
+  .main-content {
+    position: relative;
+    left: 77px;
+  }
+
 }
