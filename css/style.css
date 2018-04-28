@@ -643,8 +643,76 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  responsive
 /*-----------------------------------------------------------------------------------*/
+@media screen and (max-width: 375px) {
+  #container-title {
+    top:32%;
+}
+.index {
+    margin-right: 25px;
+}
+#title {
+    font-size: 30px;
+    line-height: 30px;
+}
+#container-one {
+    height: 70vh;
+}
 
-@media screen and (max-width: 600px) {
+.portfolio-container {
+    top: 0;
+}
+
+#bitOnClick {
+  height: 40;
+  width: 40;
+}
+
+.up-scroll {
+  left: 88%;
+  z-index: 2;
+  bottom: 10%;
+  height: 45px;
+  width: 45px;
+}
+
+.zazaza {
+  display: none;
+}
+
+#fixins {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.75;
+  position: fixed;
+  bottom: 0%;
+  z-index: 1;
+}
+
+#social-row {
+  display: none;
+}
+
+#wrap {
+  margin-right: 17%;
+}
+
+#bitmoji {
+  position: relative;
+  left: 45%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.index {
+  font-size: 14px;
+}
+
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 600px) {
   #container-title {
       top:32%;
   }
