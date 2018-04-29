@@ -658,6 +658,15 @@ nav ul li a {
     height: 70vh;
 }
 
+#container-two {
+  position: relative;
+  top: 241px;
+}
+
+.arrow {
+  bottom: -110px;
+}
+
 .portfolio-container {
     top: 0;
 }
@@ -683,7 +692,6 @@ nav ul li a {
   height: 60px;
   width: 100%;
   background-color: white;
-  opacity: 0.75;
   position: fixed;
   bottom: 0%;
   z-index: 1;
@@ -694,15 +702,16 @@ nav ul li a {
 }
 
 #wrap {
-  margin-right: 17%;
+  margin-right: 16%;
 }
 
 #bitmoji {
   position: relative;
-  left: 45%;
+  left: 43%;
   top: 50%;
   width: 50px;
   height: 50px;
+  opacity: 1 !important;
 }
 
 .index {
@@ -752,7 +761,6 @@ nav ul li a {
     height: 60px;
     width: 100%;
     background-color: white;
-    opacity: 0.75;
     position: fixed;
     bottom: 0%;
     z-index: 1;
