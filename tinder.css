@@ -184,7 +184,7 @@
 
 .bottom-left {
   position: relative;
-  top: -222px;
+  top: -341px;
 }
 
 
@@ -196,7 +196,7 @@
 .panel {
   position: relative;
   width: 109px;
-  bottom: 231px;
+  bottom: 113px;
   left: 15px;
 }
 
@@ -271,7 +271,7 @@
   float: right;
   position: relative;
   left: -132.5px;
-  bottom: 341px;
+  bottom: 223px;
 }
 
 .right {
@@ -289,15 +289,15 @@
 .bottom-middle {
   float: right;
   position: relative;
-  left: 85px;
-  bottom: 331px;
+  left: -24px;
+  bottom: 450px;
 }
 
 .bottom-right {
   float: right;
   position: relative;
-  left: -15px;
-  bottom: 440px;
+  left: 203px;
+  bottom: 331px;
 }
 
 #portfolio-space {
@@ -514,7 +514,7 @@ span {
 
 .modal-footer {
   position: relative;
-  bottom: 27px;
+  bottom: 40px;
   border-top: none;
 }
 
@@ -534,7 +534,7 @@ span {
 .FOMO-description {
   position: relative;
   left: -17px;
-  bottom: 18px;
+  bottom: 17px;
 }
 
 .PHLY-description {
@@ -558,7 +558,7 @@ span {
 .TUNEZ-description {
   position: relative;
   left: -17px;
-  bottom: 18px;
+  bottom: 17px;
 }
 
 a:hover {
@@ -567,7 +567,7 @@ a:hover {
 
 #arrow-down-btn {
   position: relative;
-  top: -1067px;
+  top: -1204px;
   left: 310px;
 }
 
